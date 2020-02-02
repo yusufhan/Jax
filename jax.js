@@ -33,7 +33,7 @@ function main() {
         asalmi = 0;
     }
     for (i = 0; i <= dizi - 1; i++) {
-        if (sayi % i == 0) {
+        if (sayi % asallar[i] == 0) {
             toplam = toplam + asallar[i];
         }
     }
